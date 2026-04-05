@@ -49,3 +49,13 @@ while(num !==0 ){
   let num = +prompt("Number do 0 k ilawa");
   console.log(num)
 }
+var num = +prompt("Number do 0 k ilawa");
+while(num !==0 ){
+  let num = +prompt("Number do 0 k ilawa");
+  console.log(num)
+}
+var num = +prompt("Number do 0 k ilawa");
+while(num !==0 ){
+  let num = +prompt("Number do 0 k ilawa");
+  console.log(num)
+}
