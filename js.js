@@ -38,8 +38,14 @@
               //  5*4*3*2*1= 120
               //  4*3*2*1= 24 +1  120 + 25=145
 
-do {
-  var asn = prompt("0 = no");
-  console.log("hello");
+// do {
+//   var asn = prompt("0 = no");
+//   console.log("hello");
   
-} while (asn !== "0");
+// } while (asn !== "0");
+
+var num = +prompt("Number do 0 k ilawa");
+while(num !==0 ){
+  let num = +prompt("Number do 0 k ilawa");
+  console.log(num)
+}
