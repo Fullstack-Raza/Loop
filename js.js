@@ -117,8 +117,23 @@ function sumEvenOddInRange(start, end) {
       sumodd += i;
     }
   }
-  return [sumeven ,sumodd ];
+  return [sumeven, sumodd];
 }
 
 console.log(sumEvenOddInRange(1, 5));
 
+function calculateTriangleArea(a, b, c) {
+  let s = (a + b + c) / 2;
+  console.log(Math.sqrt(s * (s - a) * (s - b) * (s - c)).toFixed(2));
+}
+
+calculateTriangleArea(3, 4, 5);
+
+function calculateCircleProperties(r) {
+  let circumference = (2*Math.PI*r).toFixed(2);
+  let area = (Math.PI*(r*r)).toFixed(2);
+
+  return [circumference,area]
+}
+
+calculateCircleProperties(10.8);
