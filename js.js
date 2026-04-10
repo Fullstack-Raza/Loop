@@ -85,11 +85,40 @@ function sumUpToN(n) {
 sumUpToN(5);
 
 function factorial(n) {
-   let fector = 1;
-   for(let i =1 ; i<=n ;i++){
-fector= i*fector
-   }
-    return fector
+  let fector = 1;
+  for (let i = 1; i <= n; i++) {
+    fector = i * fector;
+  }
+  return fector;
 }
 
 console.log(factorial(5));
+
+function printFactors(n) {
+  for (let i = 0; i <= n; i++) {
+    if (n % i === 0) {
+      process.stdout.write(`${Number(i)} `);
+    }
+  }
+}
+
+printFactors(20);
+
+function sumEvenOddInRange(start, end) {
+  if (start > end) {
+    [start, end] = [end, start];
+  }
+  let sumodd = 0;
+  let sumeven = 0;
+  for (let i = start; i <= end; i++) {
+    if (i % 2 === 0) {
+      sumeven += i;
+    } else {
+      sumodd += i;
+    }
+  }
+  return [sumeven ,sumodd ];
+}
+
+console.log(sumEvenOddInRange(1, 5));
+
