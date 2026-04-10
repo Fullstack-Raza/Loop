@@ -130,10 +130,19 @@ function calculateTriangleArea(a, b, c) {
 calculateTriangleArea(3, 4, 5);
 
 function calculateCircleProperties(r) {
-  let circumference = (2*Math.PI*r).toFixed(2);
-  let area = (Math.PI*(r*r)).toFixed(2);
+  let circumference = (2 * Math.PI * r).toFixed(2);
+  let area = (Math.PI * (r * r)).toFixed(2);
 
-  return [circumference,area]
+  return [circumference, area];
 }
 
 calculateCircleProperties(10.8);
+
+function calculateCompoundInterest(P, r, t, n) {
+
+let TotalAmount = P* ((1 + r/n) ** (n * t));
+let Interest = TotalAmount-P
+return Interest.toFixed(2)
+}
+
+calculateCompoundInterest(1000, 0.5, 10, 4);
