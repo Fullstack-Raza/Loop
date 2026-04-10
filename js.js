@@ -73,3 +73,23 @@ function ntoone(n) {
   }
 }
 ntoone(20);
+
+function sumUpToN(n) {
+  let sum = 0;
+  for (let i = 0; i <= n; i++) {
+    sum += i;
+  }
+  return sum;
+}
+
+sumUpToN(5);
+
+function factorial(n) {
+   let fector = 1;
+   for(let i =1 ; i<=n ;i++){
+fector= i*fector
+   }
+    return fector
+}
+
+console.log(factorial(5));
