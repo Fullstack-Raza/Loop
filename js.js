@@ -30,32 +30,46 @@
 // }
 
 //  strong Number kia hy ?
-//  aisa number hy jis k hr digit ka fectoria nikal kr plus kren gy tu wo number asl number k brabr ho jay 
-//  jesy 123 =  1!+2!+3!= 
-              // 1+2+6=9 tu 123  strong nai hy  
-              
-              // 145  ea aik trong number hy 
-              //  5*4*3*2*1= 120
-              //  4*3*2*1= 24 +1  120 + 25=145
+//  aisa number hy jis k hr digit ka fectoria nikal kr plus kren gy tu wo number asl number k brabr ho jay
+//  jesy 123 =  1!+2!+3!=
+// 1+2+6=9 tu 123  strong nai hy
+
+// 145  ea aik trong number hy
+//  5*4*3*2*1= 120
+//  4*3*2*1= 24 +1  120 + 25=145
 
 // do {
 //   var asn = prompt("0 = no");
 //   console.log("hello");
-  
+
 // } while (asn !== "0");
 
-var num = +prompt("Number do 0 k ilawa");
-while(num !==0 ){
-  let num = +prompt("Number do 0 k ilawa");
-  console.log(num)
+// var num = +prompt("Number do 0 k ilawa");
+// while(num !==0 ){
+//   let num = +prompt("Number do 0 k ilawa");
+//   console.log(num)
+// }
+// var num = +prompt("Number do 0 k ilawa");
+// while(num !==0 ){
+//   let num = +prompt("Number do 0 k ilawa");
+//   console.log(num)
+// }
+// var num = +prompt("Number do 0 k ilawa");
+// while(num !==0 ){
+//   let num = +prompt("Number do 0 k ilawa");
+//   console.log(num)
+// }
+
+function oneton(n) {
+  for (let i = 1; i <= n; i++) {
+    console.log(i);
+  }
 }
-var num = +prompt("Number do 0 k ilawa");
-while(num !==0 ){
-  let num = +prompt("Number do 0 k ilawa");
-  console.log(num)
+oneton(20);
+
+function ntoone(n) {
+  for (let i = n; i >= 1; i--) {
+    console.log(i);
+  }
 }
-var num = +prompt("Number do 0 k ilawa");
-while(num !==0 ){
-  let num = +prompt("Number do 0 k ilawa");
-  console.log(num)
-}
+ntoone(20);
