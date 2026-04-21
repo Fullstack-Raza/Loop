@@ -146,3 +146,4 @@ return Interest.toFixed(2)
 }
 
 calculateCompoundInterest(1000, 0.5, 10, 4);
+
