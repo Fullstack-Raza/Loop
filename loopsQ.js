@@ -43,5 +43,23 @@ if(usernumber%i===0){
 }
 console.log(isprime);
 
+let isprime = "Prime"
+for(let i = 2 ; i<= Math.trunc(usernumber/2) ; i++){
+if(usernumber%i===0){
+   isprime="Not Prime" 
+}
+}
+console.log(isprime);
+
+let isprime = "Prime"
+for(let i = 2 ; i<= Math.trunc(usernumber/2) ; i++){
+if(usernumber%i===0){
+   isprime="Not Prime" 
+}
+}
+console.log(isprime);
+
+
+
 
 
