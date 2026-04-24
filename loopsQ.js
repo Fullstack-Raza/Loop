@@ -51,6 +51,10 @@ if(usernumber%i===0){
 }
 console.log(isprime);
 
+for(let i= 0 ; i>10;i++){
+console.log(i)
+}
+
 
 
 
